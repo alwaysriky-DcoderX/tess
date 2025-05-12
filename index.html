@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Pembuatan Website & Script</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: url('https://images.unsplash.com/photo-1454789548928-9efd52dc4031?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+        .rain-effect {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+            pointer-events: none;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        .product {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            border: 1px solid #444;
+        }
+        .title {
+            font-weight: bold;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #000000, #3366FF, #9933FF);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #DDD;
+        }
+        .price {
+            font-weight: bold;
+            color: #FF5555;
+            margin-top: 15px;
+            font-size: 1.2em;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        }
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.1em;
+        }
+        .note {
+            font-style: italic;
+            margin-top: 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .whatsapp-btn {
+            display: block;
+            background: #25D366;
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            margin: 20px auto;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            width: 80%;
+            max-width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        .whatsapp-btn:hover {
+            background: #128C7E;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+        }
+        .whatsapp-btn:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="rain-effect"></div>
+    
+    <div class="header">
+        <h1 style="background: linear-gradient(90deg, #000000, #3366FF, #9933FF); -webkit-background-clip: text; background-clip: text; color: transparent;">JUALAN SCRIPT & JASA PEMBUATAN WEBSITE</h1>
+    </div>
+
+    <a href="https://wa.me/6285876406499?text=BANG%20BELI" class="whatsapp-btn">PESAN SEKARANG</a>
+
+    <div class="product">
+        <div class="title">OPEN MURID BIKIN WEB</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA OPEN JASA BIKIN WEB</li>
+            <li>BISA BIKIN WEB PAYMENT & JUALAN</li>
+            <li>ALL BAHAN DARI GW</li>
+        </ul>
+        <div class="price">OP? 10k</div>
+    </div>
+
+    <div class="product">
+        <div class="title">JUAL SC CREAT WEB</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA OPEN MURWEB</li>
+            <li>BISA JUAL WEB</li>
+            <li>BISA JUAL SC LAGI</li>
+            <li>DPT BAHAN BUAT OPEN MURWEB</li>
+            <li>BISA BIKIN WEB PAYMENT & JUALAN</li>
+        </ul>
+        <div class="price">OP? 15k</div>
+    </div>
+
+    <div class="product">
+        <div class="title">OPEN JASA BIKIN WEB</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA REQ WEB PAYMENT/JUALAN</li>
+            <li>BISA REQ LATAR BELAKANG</li>
+            <li>BISA REQ DOMAIN</li>
+            <li>BISA REQ TEKS</li>
+        </ul>
+        <div class="price">OP? 3-7K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">OPEN MURID CREATE SC</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA JUAL SC</li>
+            <li>BISA JADI DEV</li>
+            <li>BISA OPEN JASA BIKIN SC</li>
+            <li>CREAT PAKE BOT</li>
+            <li>ALL BAHAN DARI GW</li>
+        </ul>
+        <div class="price">OP? 20K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">JUAL SC CREAT SC</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA OPEN MURSC</li>
+            <li>BISA JUAL SC LAGI</li>
+            <li>BISA CREAT SC SEPUASNYA</li>
+            <li>GW TUTORIAL IN</li>
+            <li>BISA OPEN JASA BIKIN WEB</li>
+            <li>BISA BIKIN WEB PAYMENT & JUALAN</li>
+            <li>ALL BAHAN DARI GW</li>
+            <li>BISA OPEN JASA BIKIN SC</li>
+        </ul>
+        <div class="price">OP? 25K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">JUAL SC UNTUK MURWEB & MURSC</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA OPEN MURSC</li>
+            <li>BISA JUAL SC LAGI</li>
+            <li>BISA CREAT SC SEPUASNYA</li>
+            <li>GW TUTORIAL IN</li>
+            <li>BISA OPEN JASA BIKIN WEB</li>
+            <li>BISA BIKIN WEB PAYMENT & JUALAN</li>
+            <li>ALL BAHAN DARI GW</li>
+            <li>BISA OPEN JASA BIKIN SC</li>
+        </ul>
+        <div class="price">OP? 40K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">OPEN MURWEB & MURSC</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA JUAL SC</li>
+            <li>BISA JADI DEV</li>
+            <li>BISA OPEN JASA BIKIN SC</li>
+            <li>CREAT PAKE BOT</li>
+            <li>ALL BAHAN DARI GW</li>
+        </ul>
+        <div class="price">OP? 30k</div>
+    </div>
+
+
+    <div class="product">
+        <div class="title">JASA BIKIN SC</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>REQ NAMA SC</li>
+            <li>REQ PW</li>
+            <li>REQ VERSI</li>
+            <li>REQ NAMA OWNER</li>
+            <li>FITUR ADA 65</li>
+        </ul>
+        <div class="price">OP? 15K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">OPEN MURID NOKOS</div>
+        <div>KEUNTUNGAN?</div>
+        <ul>
+            <li>BISA JUAL NOKOS</li>
+            <li>BISA STOK NOKOS</li>
+            <li>BISA JUAL WEB & APK C NOKOS</li>
+            <li>ALL BAHAN DARI GW</li>
+        </ul>
+        <div class="price">OP? 3k-5K</div>
+    </div>
+
+    <div class="product">
+        <div class="title">JUAL NOKOS WHATSAPP</div>
+        <ul>
+            <li>INDO 5K</li>
+            <li>PILIPINA 7K</li>
+            <li>THAILAND 9K</li>
+            <li>COLOMBIA 13K</li>
+        </ul>
+    </div>
+
+    <a href="https://wa.me/6285876406499?text=BG%20BELI" class="whatsapp-btn">PESAN SEKARANG</a>
+
+    <div class="note">
+        "NOTE: BISA NEGO DAN DP ASALKAN NGOTAK DAN LUNAS"
+    </div>
+</body>
+</html>
